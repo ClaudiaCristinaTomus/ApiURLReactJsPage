@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ApiURLReactJsPage/static/css/main.d22825d1.css",
+    "main.js": "/ApiURLReactJsPage/static/js/main.ab0db4c4.js",
+    "static/media/about.png": "/ApiURLReactJsPage/static/media/about.b0c4b3092ccd98112527.png",
+    "index.html": "/ApiURLReactJsPage/index.html",
+    "main.d22825d1.css.map": "/ApiURLReactJsPage/static/css/main.d22825d1.css.map",
+    "main.ab0db4c4.js.map": "/ApiURLReactJsPage/static/js/main.ab0db4c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d22825d1.css",
+    "static/js/main.ab0db4c4.js"
+  ]
+}
