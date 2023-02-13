@@ -1,0 +1,142 @@
+@import "./../styles/variables.scss";
+
+.shorten{
+    width:100%;
+    height:100vh;
+    background-color: #e2e2ed;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    position:relative;
+    
+  
+  .container{
+    
+    .input-container{
+        width:100%;
+        height: 100%;
+        margin:90px 120px;
+        padding:40px;
+        border:1px solid black;
+    }
+  
+  .todos-container-parent{
+  
+    width:60%;
+  
+  }
+  
+  .todos-container-child{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#fff;
+    width:100%;
+    height:50px;
+    background-color:$primary;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  
+    .copybutton{
+        padding:20px;
+    }
+  }
+  
+  
+  span{
+    color:#f9564f;
+  }
+  
+  .total{
+    position:absolute;
+    top:20px;
+    right:10px;
+    font-size: 24px;
+    color:#fff;
+    margin-right:50px;
+    font-weight: bold;
+  }
+  
+ 
+  
+  input{
+    padding:5px;
+    font-size:18px;
+    width:600px;
+    border-radius:5px;
+  }
+  
+  button{
+    padding:5px;
+    color:#fff;
+    background-color: $primary;
+    font-size:15px;
+    border-radius: 5px;
+    outline:none;
+    border: none;
+    width:100px;
+    margin-left:5px;
+    font-weight: bold;
+  }
+  
+  .icon{
+    font-size:30px;
+  }
+  
+  .todo-text{
+    margin-left:10px;
+  }
+}
+
+.content_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .top{
+        margin:50px 0px;
+        h2{
+            text-align: center;
+            margin:10px;
+
+        }
+        p{
+            margin:20px;
+            width:500px;
+            text-align: center;
+        }
+    }
+
+    .bottom{
+        display:flex;
+  
+        height: 100%;
+        padding:20px;
+     
+        .card1{
+            max-width: 300px;
+            margin:0px 50px;
+            background-color: rgb(208, 200, 200);
+            border:1px solid black;
+            padding:20px;
+          
+        }
+        .card2{
+            background-color: rgb(208, 200, 200);
+            max-width: 300px;
+            margin:0px 50px;
+            padding:20px;
+            border:1px solid black;
+        }
+        .card3{ 
+            background-color: rgb(208, 200, 200);
+            max-width: 300px;
+            margin:0px 50px;
+            padding:20px;
+            border:1px solid black;
+        }
+
+    }
+}
+}
